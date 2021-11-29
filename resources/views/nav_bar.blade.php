@@ -23,8 +23,8 @@
         <a class="nav-link active" aria-current="page" href="{{url('index')}}">Home</a>
         <a class="nav-link active" aria-current="page" href="{{url('services')}}">Services</a>
         <a class="nav-link active" aria-current="page" href="{{url('projects')}}">Projects</a>
-        <a class="nav-link active" aria-current="page" href="{{url('about-us')}}">About</a>
-        <a class="nav-link active" aria-current="page" href="{{url('contact-us')}}">Contact Us</a>
+        <a class="nav-link active" aria-current="page" href="{{url('aboutus')}}">About</a>
+        <a class="nav-link active" aria-current="page" href="{{url('contact')}}">Contact Us</a>
       </div>
     </div>
   </div>
