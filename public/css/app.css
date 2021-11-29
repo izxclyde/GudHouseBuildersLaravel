@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.header
+{
+	height: 100vh;
+
+
+}
+.navbar
+{
+	box-shadow: 0 5px 10px #efefef;
+
+}
+.logo
+{
+	height: 48px;
+	padding: 2px 10px;
+}
+.aboutUsHeader
+{
+    font-family: Times New Roman;
+    font-weight: bold;
+    font-size: 70px;
+    padding-left: 10px;
+    padding-top: 15px;
+    border-bottom: rgba(73, 72, 72, 0.753);
+    
+    
+}
+.aboutUsdesc
+{
+    font-family: Times New Roman;
+    font-size: 25px;
+    font-weight: normal ;
+    padding:2px;
+}
+.bgCover
+{
+    width: auto;
+    height: 400px;
+    background-image: url('img/slide1.jpg');
+    background-size: cover;
+    border: 1px solid grey;
+    font-family: Times New Roman;
+    text-align: center;
+  }
