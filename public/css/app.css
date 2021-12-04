@@ -5,6 +5,11 @@
 	padding: 0;
     font-family:Montserrat;
 }
+.navbar-light
+{
+    background:white;
+
+}
 .header
 {
 	height: 100vh;
@@ -13,8 +18,20 @@
 }
 .navbar
 {
-	box-shadow: 0 5px 10px #efefef;
+	box-shadow: 0 5px 10px #000;
 
+}
+.nav-link
+{
+	color: #000 !important;
+}
+.nav-link .active
+{
+	color: red;
+}
+.navbar-toggler-icon
+{
+    border-color: black;
 }
 .logo
 {
