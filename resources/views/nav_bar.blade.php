@@ -12,7 +12,7 @@
 
     <header class="header">
 
-    <nav class="navbar sticky-top  navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar sticky-top  navbar-expand-lg navbar-light">
 <div class="container-fluid">
     <a href="#"><img class="logo" src="img/logo.png"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
