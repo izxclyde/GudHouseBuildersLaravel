@@ -6,13 +6,14 @@
     <title>My Website</title>
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/app.css') }}">
   </head>
   <body>
 
     <header class="header">
 
-    <nav class="navbar sticky-top  navbar-expand-lg navbar-light">
+    <nav class="navbar sticky-top  navbar-expand-lg">
 <div class="container-fluid">
     <a href="#"><img class="logo" src="img/logo.png"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,5 +35,13 @@
 
     </header>
   </body>
-
+  <script>
+$(window).scroll(function () {
+if ($(window).scrollTop() >= 20) {
+$('.navbar').css('background','#ffffff');
+} else {
+$('.navbar').css('background','transparent');
+}
+});
+</script>
 </html>
