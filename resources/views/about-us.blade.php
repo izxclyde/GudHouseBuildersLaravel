@@ -2,19 +2,9 @@
 
 @section('content')
 
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
-    <style>
-        .aboutUs{
-        background:rgba(255,255,255,0.4);
-        padding:15px;
-        border: 2px;
-        border-radius: 25px; 
-        width:100%;
-}
-    </style>
 
 <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
- 
+
 
   <main class="px-3 ">
       <center>
@@ -26,21 +16,21 @@
                                                 <p class="animated bounceInRight" style="animation-delay: 3s;font-size:1.5vw;padding:15px">
                                                 <span style="color:#1019B5;font-style:bold">GUD HOUSE BUILDERS AND DEVELOPMENT CORP</span> is composed of a group of engineers and designers specializing in international construction trade and familiar with the architectural styles of various countries. The company's main business is to introduce <span style="color:#1019B5 font-style:bold">INTERNATIONAL AND ADVANCED CONSTRUCTION</spn=ab> technology and produce <span style="color:#1019B5 font-style:bold">HIGH-QUALITY</span> houses suitable for the Philippines.
                                                 </p>
-                                                <input type="button" class="animated bounceInRight btn btn-success" style="animation-delay: 3s" type="button" style="margin-top:25px" onclick="tglOurCompany()"  id="btnreadmore" value="READ MORE"/> 
-                                            
+                                                <input type="button" class="animated bounceInRight btn btn-success" style="animation-delay: 3s" type="button" style="margin-top:25px" onclick="tglOurCompany()"  id="btnreadmore" value="READ MORE"/>
+
                 </div>
         </center>
-    </main>    
+    </main>
   </div>
 
-    
-<div  id="ourCompany" style="display:none"  style="margin-top;2%"> 
+
+<div  id="ourCompany" style="display:none"  style="margin-top;2%">
     <div class="row w-100" >
                     <div class="col-md-3" >
                         <h1 style="padding-left:2%;"><strong>Company Overview</strong></h1>
                         </br></br>
                         <h3 style="padding-left:2%;">
-                        
+
                         <ul>
                         <li>Over 20 years experience</li>
                         <li>Complete building design</li>
@@ -62,10 +52,10 @@
                         </div>
                         <p style="padding-top:15px">
                         We also offer a broad range of products made from branded materials like <b>ZINCALUME®</b> and Clean <b>COLORBOND®</b> steel, <b>RHEINZINK®</b> titanium-zinc, <b>ARUBIS ®</b> copper, NTK stainless steel, PRINTECH printed steel, <b>CALCIUM SILICATE</b> reinforced products.
-                        </p>                   
+                        </p>
                     </div>
                     <div class="col-md-6">
-                   
+
                         </br></br>
                         <h3 style="padding-left:2%;">
                             <h1><strong>20 years of experience in steel frame building design.</strong></h1>
@@ -75,19 +65,19 @@
                             <div>
                                 <p>
                                 We have had 20 years experience in steel building design and manufacture. We provide Complete Building Design,
-                                Project Supply, Construction Management. Our Objective is to deliver High Quality Economical Solutions. Our 
-                                Design Team are experienced in Delivering Rapid Construction Solutions. 
+                                Project Supply, Construction Management. Our Objective is to deliver High Quality Economical Solutions. Our
+                                Design Team are experienced in Delivering Rapid Construction Solutions.
                                 </br></br>
                                 Our <strong>ULTRAFRAME® </strong> building system is unique and adaptable to a complete range of designs. We control the quality
                                 because we do our own manufacture. We can provide Total Project Supply Management and Project Construction
-                                Management. We also provide the Complete Turn Key Solution. 
+                                Management. We also provide the Complete Turn Key Solution.
                                 </br></br>
                                 With offices in <b>China</b>, <b>Australia</b> and <b>Singapore</b>, we can serve the entire Pacific and nearby areas.
                                 </br></br>
                                 We become your partner in delivering cost effective solutions.
                                 </p>
                             </div>
-                   
+
      </div>
         <div class="row w-100" >
             <div class="col-md-6" >
@@ -96,11 +86,11 @@
                     <img  src="{{asset('./img/GlobalNetwork.PNG')}}" class="d-block w-100"  style="height:70vh;width:50wh" alt="..." />
                 </div>
             </div>
-  
+
             <div class="col-md-6">
                 <h1><strong>Advanced production equipment</strong></h1>
                 <div class="row w-100" >
-                    
+
                         <table class="w-100"style="height:80vh;width:100wh">
                             <tr>
                                 <td>
@@ -133,13 +123,13 @@
                                 </td>
                             </tr>
                         </table>
-                    
-                    
-                    
-      
+
+
+
+
                 </div>
-            </div>        
-                    
+            </div>
+
         </div>
 
 
@@ -148,25 +138,25 @@
                 <center>
                 <h1 style="font-size:2vw;"><strong>Manufacturing Facility</strong></h1>
                 <h2 style="padding-left:2%;"><strong>Total control over the quality standards and materials</strong></h2>
-                
+
                 <div class="animated bounceInUp" style="animation-delay: 1s">
                 <p style="padding:2px;">
-                PEB Projects has established a high quality manufacturing facility to produce our unique ULTRAFRAME system and other products that are unique to the PEB Projects Building System. </br> </br> 
+                PEB Projects has established a high quality manufacturing facility to produce our unique ULTRAFRAME system and other products that are unique to the PEB Projects Building System. </br> </br>
 
-                We have established this facility so we have total control over the quality including the raw material selection to ensure that our high quality standards are consistently maintained. </br> </br> 
+                We have established this facility so we have total control over the quality including the raw material selection to ensure that our high quality standards are consistently maintained. </br> </br>
 
-                Each product is designed and manufactured according to established manufacturing and quality procedures.</br> </br> 
+                Each product is designed and manufactured according to established manufacturing and quality procedures.</br> </br>
 
-                The modern manufacturing facility has been specially designed and developed so to meet the high quality standards and manufacturing requirements of the PEB Projects building system.</br> </br> 
+                The modern manufacturing facility has been specially designed and developed so to meet the high quality standards and manufacturing requirements of the PEB Projects building system.</br> </br>
 
                 </p>
                     <img  src="{{asset('./img/Mfacility.PNG')}}"   style="height:70vh;width:50wh" alt="..." />
                 </div>
                 </center>
             </div>
-  
+
         </div>
-            
+
 <div>
 
 @stop
@@ -181,8 +171,8 @@ function tglOurCompany() {
 
     document.getElementById("btnreadmore").value="HIDE"
 
-    
-    
+
+
   } else {
     x.style.display = "none";
     document.getElementById("btnreadmore").value="READ MORE"
